@@ -259,7 +259,7 @@ a:hover {
 }
 .sect-1__left {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 0;
   flex-shrink: 1;
 }
 .sect-1__left-wrapper {
@@ -291,7 +291,7 @@ a:hover {
   width: 12rem;
 }
 .sect-1__right {
-  width: 65%;
+  flex-basis: 65%;
   flex-grow: 1;
   flex-shrink: 1;
 }

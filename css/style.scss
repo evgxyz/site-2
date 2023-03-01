@@ -271,7 +271,7 @@ a {
     
     &__left {
         display: flex;
-        flex-grow: 1;
+        flex-grow: 0;
         flex-shrink: 1;
         @include debug-border(green);
     }
@@ -313,7 +313,7 @@ a {
     }
 
     &__right {
-        width: 65%;
+        flex-basis: 65%;
         flex-grow: 1;
         flex-shrink: 1;
         @include debug-border(red);
