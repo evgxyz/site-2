@@ -44,7 +44,7 @@ $button-style-2-hover-bg-color: $color-4a;
 
 // временная граница для отладки
 @mixin debug-border($color) { 
-    border: 1px solid $color; 
+    // border: 1px solid $color; 
 }
 
 //===
